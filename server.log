@@ -1,0 +1,335 @@
+Server running on port 5050
+MongoDB connected successfully
+registerPatient req.body: [Object: null prototype] {
+  name: 'rahul kumar',
+  age: '22',
+  gender: 'male',
+  aadhar: '233223344322',
+  bloodType: 'B-',
+  allergies: 'any ',
+  emergencyContactName: 'harsh',
+  emergencyContactRelation: 'father',
+  emergencyContactNumber: '1234567890'
+}
+registerPatient req.files: [Object: null prototype] {
+  fingerprint: [
+    {
+      fieldname: 'fingerprint',
+      originalname: ' - visual selection-2.png',
+      encoding: '7bit',
+      mimetype: 'image/png',
+      destination: '/Users/gunjanshrivastava/Downloads/projects/roommate finding app/jpims final/backend/uploads',
+      filename: '1750766379064- - visual selection-2.png',
+      path: '/Users/gunjanshrivastava/Downloads/projects/roommate finding app/jpims final/backend/uploads/1750766379064- - visual selection-2.png',
+      size: 114685
+    }
+  ],
+  medicalFiles: [
+    {
+      fieldname: 'medicalFiles',
+      originalname: 'eoulogo.png',
+      encoding: '7bit',
+      mimetype: 'image/png',
+      destination: '/Users/gunjanshrivastava/Downloads/projects/roommate finding app/jpims final/backend/uploads',
+      filename: '1750766379066-eoulogo.png',
+      path: '/Users/gunjanshrivastava/Downloads/projects/roommate finding app/jpims final/backend/uploads/1750766379066-eoulogo.png',
+      size: 245910
+    },
+    {
+      fieldname: 'medicalFiles',
+      originalname: 'eoulogo.png',
+      encoding: '7bit',
+      mimetype: 'image/png',
+      destination: '/Users/gunjanshrivastava/Downloads/projects/roommate finding app/jpims final/backend/uploads',
+      filename: '1750766379069-eoulogo.png',
+      path: '/Users/gunjanshrivastava/Downloads/projects/roommate finding app/jpims final/backend/uploads/1750766379069-eoulogo.png',
+      size: 245910
+    },
+    {
+      fieldname: 'medicalFiles',
+      originalname: 'eoulogo.png',
+      encoding: '7bit',
+      mimetype: 'image/png',
+      destination: '/Users/gunjanshrivastava/Downloads/projects/roommate finding app/jpims final/backend/uploads',
+      filename: '1750766379071-eoulogo.png',
+      path: '/Users/gunjanshrivastava/Downloads/projects/roommate finding app/jpims final/backend/uploads/1750766379071-eoulogo.png',
+      size: 245910
+    },
+    {
+      fieldname: 'medicalFiles',
+      originalname: 'eoulogo.png',
+      encoding: '7bit',
+      mimetype: 'image/png',
+      destination: '/Users/gunjanshrivastava/Downloads/projects/roommate finding app/jpims final/backend/uploads',
+      filename: '1750766379072-eoulogo.png',
+      path: '/Users/gunjanshrivastava/Downloads/projects/roommate finding app/jpims final/backend/uploads/1750766379072-eoulogo.png',
+      size: 245910
+    },
+    {
+      fieldname: 'medicalFiles',
+      originalname: 'eoulogo.png',
+      encoding: '7bit',
+      mimetype: 'image/png',
+      destination: '/Users/gunjanshrivastava/Downloads/projects/roommate finding app/jpims final/backend/uploads',
+      filename: '1750766379073-eoulogo.png',
+      path: '/Users/gunjanshrivastava/Downloads/projects/roommate finding app/jpims final/backend/uploads/1750766379073-eoulogo.png',
+      size: 245910
+    },
+    {
+      fieldname: 'medicalFiles',
+      originalname: 'eoulogo.png',
+      encoding: '7bit',
+      mimetype: 'image/png',
+      destination: '/Users/gunjanshrivastava/Downloads/projects/roommate finding app/jpims final/backend/uploads',
+      filename: '1750766379074-eoulogo.png',
+      path: '/Users/gunjanshrivastava/Downloads/projects/roommate finding app/jpims final/backend/uploads/1750766379074-eoulogo.png',
+      size: 245910
+    }
+  ]
+}
+=== PINATA UPLOAD DEBUG ===
+Uploading file to IPFS: /Users/gunjanshrivastava/Downloads/projects/roommate finding app/jpims final/backend/uploads/1750766379064- - visual selection-2.png
+File exists: true
+File stats: Stats {
+  dev: 16777231,
+  mode: 33188,
+  nlink: 1,
+  uid: 501,
+  gid: 20,
+  rdev: 0,
+  blksize: 4096,
+  ino: 32050431,
+  size: 114685,
+  blocks: 224,
+  atimeMs: 1750766379066.1897,
+  mtimeMs: 1750766379068.7495,
+  ctimeMs: 1750766379068.7495,
+  birthtimeMs: 1750766379066.1897
+}
+File name: 1750766379064- - visual selection-2.png
+Pinata API Key: 9f697ab88cb349658e7c
+Pinata Secret Key: ***
+(node:64067) [DEP0044] DeprecationWarning: The `util.isArray` API is deprecated. Please use `Array.isArray()` instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+IPFS upload successful: {
+  IpfsHash: 'QmaMKXoLctSfVujaXrtC1C3YTvd1BTtft5S7yLr7DPqxEn',
+  PinSize: 114699,
+  Timestamp: '2025-06-24T11:59:41.840Z',
+  ID: 'd84e7104-0181-4b7c-9b3e-8fe8f20c686e',
+  Name: '1750766379064- - visual selection-2.png',
+  NumberOfFiles: 1,
+  MimeType: 'image/png',
+  GroupId: null,
+  Keyvalues: { type: 'medical-record', uploadedAt: '2025-06-24T11:59:39.078Z' }
+}
+=== END PINATA DEBUG ===
+=== PINATA UPLOAD DEBUG ===
+Uploading file to IPFS: /Users/gunjanshrivastava/Downloads/projects/roommate finding app/jpims final/backend/uploads/1750766379066-eoulogo.png
+File exists: true
+File stats: Stats {
+  dev: 16777231,
+  mode: 33188,
+  nlink: 1,
+  uid: 501,
+  gid: 20,
+  rdev: 0,
+  blksize: 4096,
+  ino: 32050432,
+  size: 245910,
+  blocks: 488,
+  atimeMs: 1750766381055.5322,
+  mtimeMs: 1750766379070.1658,
+  ctimeMs: 1750766379070.1658,
+  birthtimeMs: 1750766379066.5198
+}
+File name: 1750766379066-eoulogo.png
+Pinata API Key: 9f697ab88cb349658e7c
+Pinata Secret Key: ***
+IPFS upload successful: {
+  IpfsHash: 'QmW85b3GyyJJbb5GVWhqAwnXUAbXsaSVHnXEwnAVxitTKc',
+  PinSize: 245924,
+  Timestamp: '2025-06-24T11:59:43.750Z',
+  ID: '16c7d2e6-ab9c-4325-bae7-d49311b0d959',
+  Name: '1750766379066-eoulogo.png',
+  NumberOfFiles: 1,
+  MimeType: 'image/png',
+  GroupId: null,
+  Keyvalues: { type: 'medical-record', uploadedAt: '2025-06-24T11:59:42.135Z' }
+}
+=== END PINATA DEBUG ===
+=== PINATA UPLOAD DEBUG ===
+Uploading file to IPFS: /Users/gunjanshrivastava/Downloads/projects/roommate finding app/jpims final/backend/uploads/1750766379069-eoulogo.png
+File exists: true
+File stats: Stats {
+  dev: 16777231,
+  mode: 33188,
+  nlink: 1,
+  uid: 501,
+  gid: 20,
+  rdev: 0,
+  blksize: 4096,
+  ino: 32050433,
+  size: 245910,
+  blocks: 488,
+  atimeMs: 1750766381055.5322,
+  mtimeMs: 1750766379071.2686,
+  ctimeMs: 1750766379071.2686,
+  birthtimeMs: 1750766379069.83
+}
+File name: 1750766379069-eoulogo.png
+Pinata API Key: 9f697ab88cb349658e7c
+Pinata Secret Key: ***
+IPFS upload successful: {
+  IpfsHash: 'QmW85b3GyyJJbb5GVWhqAwnXUAbXsaSVHnXEwnAVxitTKc',
+  PinSize: 245924,
+  Timestamp: '2025-06-24T11:59:43.750Z',
+  ID: '16c7d2e6-ab9c-4325-bae7-d49311b0d959',
+  Name: '1750766379066-eoulogo.png',
+  NumberOfFiles: 1,
+  MimeType: 'image/png',
+  GroupId: null,
+  Keyvalues: { type: 'medical-record', uploadedAt: '2025-06-24T11:59:42.135Z' },
+  isDuplicate: true
+}
+=== END PINATA DEBUG ===
+=== PINATA UPLOAD DEBUG ===
+Uploading file to IPFS: /Users/gunjanshrivastava/Downloads/projects/roommate finding app/jpims final/backend/uploads/1750766379071-eoulogo.png
+File exists: true
+File stats: Stats {
+  dev: 16777231,
+  mode: 33188,
+  nlink: 1,
+  uid: 501,
+  gid: 20,
+  rdev: 0,
+  blksize: 4096,
+  ino: 32050434,
+  size: 245910,
+  blocks: 488,
+  atimeMs: 1750766381055.3481,
+  mtimeMs: 1750766379072.594,
+  ctimeMs: 1750766379072.594,
+  birthtimeMs: 1750766379071.3823
+}
+File name: 1750766379071-eoulogo.png
+Pinata API Key: 9f697ab88cb349658e7c
+Pinata Secret Key: ***
+IPFS upload successful: {
+  IpfsHash: 'QmW85b3GyyJJbb5GVWhqAwnXUAbXsaSVHnXEwnAVxitTKc',
+  PinSize: 245924,
+  Timestamp: '2025-06-24T11:59:43.750Z',
+  ID: '16c7d2e6-ab9c-4325-bae7-d49311b0d959',
+  Name: '1750766379066-eoulogo.png',
+  NumberOfFiles: 1,
+  MimeType: 'image/png',
+  GroupId: null,
+  Keyvalues: { type: 'medical-record', uploadedAt: '2025-06-24T11:59:42.135Z' },
+  isDuplicate: true
+}
+=== END PINATA DEBUG ===
+=== PINATA UPLOAD DEBUG ===
+Uploading file to IPFS: /Users/gunjanshrivastava/Downloads/projects/roommate finding app/jpims final/backend/uploads/1750766379072-eoulogo.png
+File exists: true
+File stats: Stats {
+  dev: 16777231,
+  mode: 33188,
+  nlink: 1,
+  uid: 501,
+  gid: 20,
+  rdev: 0,
+  blksize: 4096,
+  ino: 32050435,
+  size: 245910,
+  blocks: 488,
+  atimeMs: 1750766381055.5042,
+  mtimeMs: 1750766379073.6016,
+  ctimeMs: 1750766379073.6016,
+  birthtimeMs: 1750766379072.3215
+}
+File name: 1750766379072-eoulogo.png
+Pinata API Key: 9f697ab88cb349658e7c
+Pinata Secret Key: ***
+IPFS upload successful: {
+  IpfsHash: 'QmW85b3GyyJJbb5GVWhqAwnXUAbXsaSVHnXEwnAVxitTKc',
+  PinSize: 245924,
+  Timestamp: '2025-06-24T11:59:43.750Z',
+  ID: '16c7d2e6-ab9c-4325-bae7-d49311b0d959',
+  Name: '1750766379066-eoulogo.png',
+  NumberOfFiles: 1,
+  MimeType: 'image/png',
+  GroupId: null,
+  Keyvalues: { type: 'medical-record', uploadedAt: '2025-06-24T11:59:42.135Z' },
+  isDuplicate: true
+}
+=== END PINATA DEBUG ===
+=== PINATA UPLOAD DEBUG ===
+Uploading file to IPFS: /Users/gunjanshrivastava/Downloads/projects/roommate finding app/jpims final/backend/uploads/1750766379073-eoulogo.png
+File exists: true
+File stats: Stats {
+  dev: 16777231,
+  mode: 33188,
+  nlink: 1,
+  uid: 501,
+  gid: 20,
+  rdev: 0,
+  blksize: 4096,
+  ino: 32050436,
+  size: 245910,
+  blocks: 488,
+  atimeMs: 1750766381055.348,
+  mtimeMs: 1750766379074.683,
+  ctimeMs: 1750766379074.683,
+  birthtimeMs: 1750766379073.3423
+}
+File name: 1750766379073-eoulogo.png
+Pinata API Key: 9f697ab88cb349658e7c
+Pinata Secret Key: ***
+IPFS upload successful: {
+  IpfsHash: 'QmW85b3GyyJJbb5GVWhqAwnXUAbXsaSVHnXEwnAVxitTKc',
+  PinSize: 245924,
+  Timestamp: '2025-06-24T11:59:43.750Z',
+  ID: '16c7d2e6-ab9c-4325-bae7-d49311b0d959',
+  Name: '1750766379066-eoulogo.png',
+  NumberOfFiles: 1,
+  MimeType: 'image/png',
+  GroupId: null,
+  Keyvalues: { type: 'medical-record', uploadedAt: '2025-06-24T11:59:42.135Z' },
+  isDuplicate: true
+}
+=== END PINATA DEBUG ===
+=== PINATA UPLOAD DEBUG ===
+Uploading file to IPFS: /Users/gunjanshrivastava/Downloads/projects/roommate finding app/jpims final/backend/uploads/1750766379074-eoulogo.png
+File exists: true
+File stats: Stats {
+  dev: 16777231,
+  mode: 33188,
+  nlink: 1,
+  uid: 501,
+  gid: 20,
+  rdev: 0,
+  blksize: 4096,
+  ino: 32050437,
+  size: 245910,
+  blocks: 488,
+  atimeMs: 1750766381055.3481,
+  mtimeMs: 1750766379075.6128,
+  ctimeMs: 1750766379075.6128,
+  birthtimeMs: 1750766379074.6802
+}
+File name: 1750766379074-eoulogo.png
+Pinata API Key: 9f697ab88cb349658e7c
+Pinata Secret Key: ***
+IPFS upload successful: {
+  IpfsHash: 'QmW85b3GyyJJbb5GVWhqAwnXUAbXsaSVHnXEwnAVxitTKc',
+  PinSize: 245924,
+  Timestamp: '2025-06-24T11:59:43.750Z',
+  ID: '16c7d2e6-ab9c-4325-bae7-d49311b0d959',
+  Name: '1750766379066-eoulogo.png',
+  NumberOfFiles: 1,
+  MimeType: 'image/png',
+  GroupId: null,
+  Keyvalues: { type: 'medical-record', uploadedAt: '2025-06-24T11:59:42.135Z' },
+  isDuplicate: true
+}
+=== END PINATA DEBUG ===
+Patient saved to MongoDB successfully
